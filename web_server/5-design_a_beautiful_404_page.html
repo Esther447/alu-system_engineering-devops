@@ -3,49 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oops! Lost in Space</title>
+    <title>404 - Lost in Space</title>
     <style>
         body {
-            font-family: 'Arial', sans-serif;
-            text-align: center;
-            background-color: #1a1a2e;
-            color: #ffffff;
-            padding: 50px;
-        }
-        h1 {
-            font-size: 100px;
             margin: 0;
-            color: #ff6b6b;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
         }
+
+        h1 {
+            font-size: 3em;
+            color: #ff6347;
+        }
+
         p {
-            font-size: 20px;
-            margin-bottom: 30px;
+            font-size: 1.2em;
+            margin-top: 10px;
+            color: #555;
         }
-        .home-link {
-            display: inline-block;
-            padding: 12px 24px;
-            background-color: #007bff;
-            color: white;
-            text-decoration: none;
-            font-size: 18px;
-            border-radius: 5px;
+
+        .mascot {
+            margin-top: 20px;
+            width: 120px;
+            animation: float 2s ease-in-out infinite;
         }
-        .home-link:hover {
-            background-color: #0056b3;
+
+        .btn {
+            margin-top: 30px;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            background-color: #ff6347;
+            color: #fff;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
         }
-        .animation {
-            width: 300px;
-            margin: 20px auto;
+
+        .btn:hover {
+            background-color: #e5533d;
+        }
+
+        @keyframes float {
+            0% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0); }
         }
     </style>
 </head>
 <body>
-    <h1>404</h1>
-    <p>Oops! Ceci n'est pas une page.</p>
-    <p>Looks like you’re lost in space.</p>
-    <img class="animation" src="https://i.gifer.com/7jKw.gif" alt="Astronaut floating in space">
-    <br>
-    <a class="home-link" href="/">🚀 Go Home</a>
+    <div>
+        <h1>404 - Lost in Space</h1>
+        <p>Ceci n’est pas une page</p>
+        <img src="https://www.clipartmax.com/png/full/66-669648_space-astronaut-clipart-astronaut-in-space.png" alt="Lost Astronaut" class="mascot">
+        <br>
+        <button class="btn" onclick="window.location.href='/'">Back to Home</button>
+    </div>
 </body>
 </html>
 
