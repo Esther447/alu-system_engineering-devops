@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# make it shortest
-apt-get -y update
-apt-get install -y nginx
-sudo service nginx start
+# make it shortest and sweet
+service nginx stop
+service nginx status
+curl 0:80
