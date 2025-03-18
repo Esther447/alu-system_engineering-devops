@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # make it shortest and sweet
-service nginx stop
-nginx -g 'daemon off'
+sudo service nginx stop
+sudo nginx
