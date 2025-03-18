@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
 # make it shortest and sweet
 service nginx stop
-service nginx status
-curl 0:80
+nginx -g 'daemon off;'
