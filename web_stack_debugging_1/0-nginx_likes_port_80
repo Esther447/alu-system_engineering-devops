@@ -1,4 +1,4 @@
-#!/usr/bin/anv bash
+#!/usr/bin/env bash
 # nginx with port 80
 
 sudo In -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
