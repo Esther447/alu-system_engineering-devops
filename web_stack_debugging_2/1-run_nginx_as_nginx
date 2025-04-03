@@ -1,8 +1,19 @@
 #!/bin/bash
-# Ensure script is run as the nginx user
-su nginx -s /bin/bash -c "service nginx restart"
-chmod 644 /etc/nginx/nginx.conf
-sed -Ei 's/\s*#?\s*user .*/user nginx;/' /etc/nginx/nginx.conf
-sed -Ei 's/(listen (\[::\]:)?80) /\180 /' /etc/nginx/sites-enabled/default
-pkill apache2
-su nginx -s /bin/bash -c 'service nginx restart`
+# 1. Modify the Nginx user and configuration
+# Edit the /etc/nginx/nginx.conf file to ensure it runs as the nginx user and listens on port 8080
+sudo sed -i 's/user www-data;/user nginx;/g' /etc/nginx/nginx.conf
+
+# Modify the default site configuration to listen on port 8080
+sudo sed -i 's/listen 80;/listen 8080 default_server;/g' /etc/nginx/sites-available/default
+sudo sed -i 's/listen \[::\]:80;/listen \[::\]:8080 default_server;/g' /etc/nginx/sites-available/default
+
+# 2. Restart Nginx to apply the changes
+sudo systemctl restart nginx
+
+# 3. Verify the changes
+# Check if Nginx is running as the nginx user
+ps aux | grep 'nginx'
+
+# Check if Nginx is listening on port 8080
+nc -zv 0 8080
+
