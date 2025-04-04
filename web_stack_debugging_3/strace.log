@@ -1,0 +1,370 @@
+515   select(0, NULL, NULL, NULL, {tv_sec=0, tv_usec=943328}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=38, tms_cutime=0, tms_cstime=0}) = 4295586654
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=38, tms_cutime=0, tms_cstime=0}) = 4295586754
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=38, tms_cutime=0, tms_cstime=0}) = 4295586854
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=38, tms_cutime=0, tms_cstime=0}) = 4295586954
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=38, tms_cutime=0, tms_cstime=0}) = 4295587055
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=38, tms_cutime=0, tms_cstime=0}) = 4295587155
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=38, tms_cutime=0, tms_cstime=0}) = 4295587255
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=38, tms_cutime=0, tms_cstime=0}) = 4295587355
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=39, tms_cutime=0, tms_cstime=0}) = 4295587456
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=39, tms_cutime=0, tms_cstime=0}) = 4295587556
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=39, tms_cutime=0, tms_cstime=0}) = 4295587656
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=39, tms_cutime=0, tms_cstime=0}) = 4295587757
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=39, tms_cutime=0, tms_cstime=0}) = 4295587857
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=39, tms_cutime=0, tms_cstime=0}) = 4295587957
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=39, tms_cutime=0, tms_cstime=0}) = 4295588058
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=39, tms_cutime=0, tms_cstime=0}) = 4295588159
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=39, tms_cutime=0, tms_cstime=0}) = 4295588259
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=39, tms_cutime=0, tms_cstime=0}) = 4295588359
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=39, tms_cutime=0, tms_cstime=0}) = 4295588460
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=39, tms_cutime=0, tms_cstime=0}) = 4295588560
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=39, tms_cutime=0, tms_cstime=0}) = 4295588663
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=39, tms_cutime=0, tms_cstime=0}) = 4295588763
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=39, tms_cutime=0, tms_cstime=0}) = 4295588863
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=39, tms_cutime=0, tms_cstime=0}) = 4295588971
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=39, tms_cutime=0, tms_cstime=0}) = 4295589071
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=39, tms_cutime=0, tms_cstime=0}) = 4295589172
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=40, tms_cutime=0, tms_cstime=0}) = 4295589272
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=40, tms_cutime=0, tms_cstime=0}) = 4295589372
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=40, tms_cutime=0, tms_cstime=0}) = 4295589473
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=40, tms_cutime=0, tms_cstime=0}) = 4295589573
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=40, tms_cutime=0, tms_cstime=0}) = 4295589676
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=40, tms_cutime=0, tms_cstime=0}) = 4295589776
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=40, tms_cutime=0, tms_cstime=0}) = 4295589876
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=40, tms_cutime=0, tms_cstime=0}) = 4295589977
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=40, tms_cutime=0, tms_cstime=0}) = 4295590077
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=40, tms_cutime=0, tms_cstime=0}) = 4295590180
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=40, tms_cutime=0, tms_cstime=0}) = 4295590280
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=40, tms_cutime=0, tms_cstime=0}) = 4295590380
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=40, tms_cutime=0, tms_cstime=0}) = 4295590481
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=40, tms_cutime=0, tms_cstime=0}) = 4295590581
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=40, tms_cutime=0, tms_cstime=0}) = 4295590684
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=40, tms_cutime=0, tms_cstime=0}) = 4295590784
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=40, tms_cutime=0, tms_cstime=0}) = 4295590884
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=40, tms_cutime=0, tms_cstime=0}) = 4295590985
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=40, tms_cutime=0, tms_cstime=0}) = 4295591085
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=41, tms_cutime=0, tms_cstime=0}) = 4295591188
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=41, tms_cutime=0, tms_cstime=0}) = 4295591288
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=41, tms_cutime=0, tms_cstime=0}) = 4295591388
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=41, tms_cutime=0, tms_cstime=0}) = 4295591489
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=41, tms_cutime=0, tms_cstime=0}) = 4295591589
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=41, tms_cutime=0, tms_cstime=0}) = 4295591689
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=41, tms_cutime=0, tms_cstime=0}) = 4295591790
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=41, tms_cutime=0, tms_cstime=0}) = 4295591890
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=41, tms_cutime=0, tms_cstime=0}) = 4295591990
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=41, tms_cutime=0, tms_cstime=0}) = 4295592091
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=41, tms_cutime=0, tms_cstime=0}) = 4295592191
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=41, tms_cutime=0, tms_cstime=0}) = 4295592292
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=41, tms_cutime=0, tms_cstime=0}) = 4295592392
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=41, tms_cutime=0, tms_cstime=0}) = 4295592492
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=41, tms_cutime=0, tms_cstime=0}) = 4295592592
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=41, tms_cutime=0, tms_cstime=0}) = 4295592693
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=41, tms_cutime=0, tms_cstime=0}) = 4295592793
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=41, tms_cutime=0, tms_cstime=0}) = 4295592893
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=41, tms_cutime=0, tms_cstime=0}) = 4295592994
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=42, tms_cutime=0, tms_cstime=0}) = 4295593094
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=42, tms_cutime=0, tms_cstime=0}) = 4295593194
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=42, tms_cutime=0, tms_cstime=0}) = 4295593295
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=42, tms_cutime=0, tms_cstime=0}) = 4295593395
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=42, tms_cutime=0, tms_cstime=0}) = 4295593495
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=42, tms_cutime=0, tms_cstime=0}) = 4295593596
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=42, tms_cutime=0, tms_cstime=0}) = 4295593696
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=42, tms_cutime=0, tms_cstime=0}) = 4295593796
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=42, tms_cutime=0, tms_cstime=0}) = 4295593896
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=42, tms_cutime=0, tms_cstime=0}) = 4295593997
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=42, tms_cutime=0, tms_cstime=0}) = 4295594097
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=42, tms_cutime=0, tms_cstime=0}) = 4295594197
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=42, tms_cutime=0, tms_cstime=0}) = 4295594298
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=42, tms_cutime=0, tms_cstime=0}) = 4295594398
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=42, tms_cutime=0, tms_cstime=0}) = 4295594498
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=42, tms_cutime=0, tms_cstime=0}) = 4295594598
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=42, tms_cutime=0, tms_cstime=0}) = 4295594701
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=42, tms_cutime=0, tms_cstime=0}) = 4295594801
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=42, tms_cutime=0, tms_cstime=0}) = 4295594901
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=42, tms_cutime=0, tms_cstime=0}) = 4295595002
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=42, tms_cutime=0, tms_cstime=0}) = 4295595102
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=42, tms_cutime=0, tms_cstime=0}) = 4295595202
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=42, tms_cutime=0, tms_cstime=0}) = 4295595303
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=42, tms_cutime=0, tms_cstime=0}) = 4295595403
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=42, tms_cutime=0, tms_cstime=0}) = 4295595503
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=42, tms_cutime=0, tms_cstime=0}) = 4295595603
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=43, tms_cutime=0, tms_cstime=0}) = 4295595706
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=43, tms_cutime=0, tms_cstime=0}) = 4295595806
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=43, tms_cutime=0, tms_cstime=0}) = 4295595906
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=43, tms_cutime=0, tms_cstime=0}) = 4295596007
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=43, tms_cutime=0, tms_cstime=0}) = 4295596107
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=43, tms_cutime=0, tms_cstime=0}) = 4295596207
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=43, tms_cutime=0, tms_cstime=0}) = 4295596308
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=43, tms_cutime=0, tms_cstime=0}) = 4295596408
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=43, tms_cutime=0, tms_cstime=0}) = 4295596508
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=43, tms_cutime=0, tms_cstime=0}) = 4295596608
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=43, tms_cutime=0, tms_cstime=0}) = 4295596709
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=43, tms_cutime=0, tms_cstime=0}) = 4295596809
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=43, tms_cutime=0, tms_cstime=0}) = 4295596910
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=43, tms_cutime=0, tms_cstime=0}) = 4295597010
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=43, tms_cutime=0, tms_cstime=0}) = 4295597110
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=43, tms_cutime=0, tms_cstime=0}) = 4295597211
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=43, tms_cutime=0, tms_cstime=0}) = 4295597311
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=43, tms_cutime=0, tms_cstime=0}) = 4295597411
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=43, tms_cutime=0, tms_cstime=0}) = 4295597512
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=43, tms_cutime=0, tms_cstime=0}) = 4295597612
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=43, tms_cutime=0, tms_cstime=0}) = 4295597712
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=43, tms_cutime=0, tms_cstime=0}) = 4295597813
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=43, tms_cutime=0, tms_cstime=0}) = 4295597913
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=43, tms_cutime=0, tms_cstime=0}) = 4295598013
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=43, tms_cutime=0, tms_cstime=0}) = 4295598114
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=43, tms_cutime=0, tms_cstime=0}) = 4295598217
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=44, tms_cutime=0, tms_cstime=0}) = 4295598317
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=44, tms_cutime=0, tms_cstime=0}) = 4295598417
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=44, tms_cutime=0, tms_cstime=0}) = 4295598518
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=44, tms_cutime=0, tms_cstime=0}) = 4295598618
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=44, tms_cutime=0, tms_cstime=0}) = 4295598721
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=44, tms_cutime=0, tms_cstime=0}) = 4295598821
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+515   wait4(-1, 0x7ffe84c6b23c, WNOHANG|WSTOPPED, NULL) = 0
+515   times({tms_utime=13, tms_stime=44, tms_cutime=0, tms_cstime=0}) = 4295598922
+515   select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0} <detached ...>
