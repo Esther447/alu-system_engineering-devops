@@ -1,19 +1,18 @@
-#!/bin/bash
-# 1. Modify the Nginx user and configuration
-# Edit the /etc/nginx/nginx.conf file to ensure it runs as the nginx user and listens on port 8080
-sudo sed -i 's/user www-data;/user nginx;/g' /etc/nginx/nginx.conf
+#!/usr/bin/env bash
+# nginx must be running as nginx user
+regex_existing_ipv4_config="listen\s.[0-9]\sdefault_server"
+port_8080_ipv4_config="listen 8080 default_server"
+# give 777 (all) rights to ugoa
+chmod 777 /etc/nginx/nginx.conf
+sed -ri "s/$regex_existing_ipv4_config/$port_8080_ipv4_config/" /etc/nginx/sites-available/default
+sed -ri "s/$regex_existing_ipv4_config/$port_8080_ipv4_config/" /etc/nginx/sites-enabled/default
 
-# Modify the default site configuration to listen on port 8080
-sudo sed -i 's/listen 80;/listen 8080 default_server;/g' /etc/nginx/sites-available/default
-sudo sed -i 's/listen \[::\]:80;/listen \[::\]:8080 default_server;/g' /etc/nginx/sites-available/default
+regex_existing_ipv6_config="listen\s\[::\]:.[0-9]\sdefault_server"
+port_8080_ipv6_config="listen [::]:8080 default_server"
+sed -ri "s/$regex_existing_ipv6_config/$port_8080_ipv6_config/" /etc/nginx/sites-available/default
+sed -ri "s/$regex_existing_ipv6_config/$port_8080_ipv6_config/" /etc/nginx/sites-enabled/default
 
-# 2. Restart Nginx to apply the changes
-sudo systemctl restart nginx
-
-# 3. Verify the changes
-# Check if Nginx is running as the nginx user
-ps aux | grep 'nginx'
-
-# Check if Nginx is listening on port 8080
-nc -zv 0 8080
-
+# kill all processes at port 8080
+lsof -ti tcp:8080 | xargs kill
+echo nginx:1234 | chpasswd
+sudo -u nginx service nginx restart
