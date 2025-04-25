@@ -1,11 +1,31 @@
 #!/usr/bin/env bash
-# returns a custom header on request
+# Config Nginx so that its HTTP response contains a custom header
 
-apt-get -y update
-apt-get -y install nginx
+# Update 
+sudo apt-get update 
+sudo apt-get install -y nginx
 
-sudo sed -i "47i\\\tadd_header X-Served-By $HOSTNAME;" /etc/nginx/sites-available/default
-echo "Holberton School" |sudo tee /var/www/html/index.html
-echo "Ceci n'est pas une page" | sudo tee /usr/share/nginx/html/404.html
+# nginx page change
 
-sudo service nginx start
+echo "Holberton School" | sudo tee /var/www/html/index.html
+
+# Configure redirection for /redirect_me
+
+string_for_replacement="server_name _;\n\trewrite ^\/redirect_me https:\/\/www.youtube.com\/watch?v=QH2-TGUlwu4 permanent;"
+
+sudo sed -i "s/server_name _;/$string_for_replacement/" /etc/nginx/sites-enabled/default
+
+# Creating a 404 Custom error page
+echo "Ceci n'est pas une page" | sudo tee /var/www/html/404.html
+replace="listen 80 default_server;\n\terror_page 404 \/404.html;\n\tlocation = \/404.html {\n\t\troot \/var\/www\/html;\n\t\tinternal;\n\t}"
+
+sudo sed -i "s/listen 80 default_server;/$replace/" /etc/nginx/sites-enabled/default 
+
+#HTTP header
+sudo sed -i "/server_name _/a add_header X-Served-By $HOSTNAME;" /etc/nginx/sites-enabled/default
+
+# Testing configurations for syntax errors
+sudo nginx -t
+
+# restart nginx
+sudo service nginx restart
